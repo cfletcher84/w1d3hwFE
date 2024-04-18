@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Recipe</title>
+</head>
+
+<body>
+
+    <Header>
+
+        <h1>Create Your Own Recipe</h1>
+
+    </Header>
+
+    <main>
+
+        <h3>Please enter your recipe below</h3>
+
+        <form action="/submit" method="POST">
+            <label for="name">Recipe Name: </label>
+            <input type="text" placeholder="Recipe Name" autocomplete="on" required>
+            <div role="alert" aria-live="assertive"></div>
+            <br>
+            <label for="ingredients">Ingredients: </label>
+            <textarea input type="text" placeholder="Ingredients" autocomplete="on" required></textarea><br><br><br>
+            <label for="steps">Steps: </label>
+            <textarea input type="text" placeholder="Steps" autocomplete="on" required></textarea><br><br><br>
+            <button type="submit"><a href="/cookieshomework.html">Submit a new recipe</button>
+
+
+    </main>
+
+</body>
+
+
+</html> 
